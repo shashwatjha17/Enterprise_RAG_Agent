@@ -1,0 +1,29 @@
+# Core dependencies
+fastapi
+uvicorn
+langchain
+langchain-openai
+openai
+python-dotenv
+python-multipart
+supabase
+requests
+tiktoken
+langchain_text_splitters
+
+# Document processing 
+pymupdf
+pdfplumber
+python-docx
+python-pptx
+Pillow
+pdf2image
+pytesseract
+
+# Data handling
+pandas
+tabulate
+
+# Excluding heavy packages for smaller image:
+# - unstructured[local-inference] (~2GB+ with models)
+# - camelot-py[cv] (needs opencv)
